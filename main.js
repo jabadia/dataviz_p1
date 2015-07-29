@@ -6,7 +6,7 @@ function createChart()
         w = 960 - m[1] - m[3],
         h = 500 - m[0] - m[2];
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#chart").append("svg")
         .attr("width", w + m[1] + m[3])
         .attr("height", h + m[0] + m[2])
       .append("g")
