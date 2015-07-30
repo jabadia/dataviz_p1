@@ -5,4 +5,11 @@ html {
 svg {
     font-family: "Helvetica Neue", Helvetica;
     border: 1px solid #aaa;
+    /*shape-rendering: crispEdges;*/
+}
+
+.bars line 
+{
+    stroke: #444;
+    stroke-width: 0.75px;
 }
